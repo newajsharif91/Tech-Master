@@ -57,3 +57,33 @@
   color: #aaa;
   margin-bottom: 0;
 }
+
+
+
+
+.carousel-caption{
+        padding-bottom: 9.5rem;
+        align-items: center;
+        text-align: center;
+        justify-items: center;}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.5;
+}
+/* Mobile */
+@media only screen and (max-width: 688px;){
+    .carousel-caption{
+        margin-top:0 ;
+    }
+}
+
+
+
+
