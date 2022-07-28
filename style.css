@@ -77,12 +77,22 @@
     background: #000000;
     opacity: 0.5;
 }
+/* Frequently Start */
+
+/* Frequently End */
+
+
+
+
+
 /* Mobile */
 @media only screen and (max-width: 688px;){
     .carousel-caption{
         margin-top:0 ;
     }
 }
+
+
 
 
 
